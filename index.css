@@ -1,0 +1,95 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    width: 80%;
+}
+.corpo{
+    border-radius: 15px;
+    background-color: #5B4B8A;
+    padding: 20px;
+    width: 350px;
+    height: 550px;
+}
+
+.borda_tela{
+    background-color: #371B58;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.tela{
+    background-color: #FFE3A9;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.imagem__bicho{
+    width: 60%;
+    border-radius: 50%;
+    margin: 0 20%;
+}
+
+.status{
+    margin: 10px 2px 0px 2px;
+}
+
+.tipo_status{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+
+.fundo__barra-progresso{
+    width: 70%;
+    background: #555;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 2px 5px;
+}
+
+.barra_progresso{
+    width: 90%;
+    display: block;
+    overflow: hidden;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.barra_progresso--diversao{
+    width: 40%;
+    background-color: #f0a3a3;
+}
+
+.barra_progresso--limpeza{
+    width: 30%;
+    background-color: #a3f0ad;
+}
+
+.barra_progresso--fome{
+    width: 70%;
+    background-color: #a3d8f0;
+}
+
+
+.botoes{
+    margin-top: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.botao{
+    width: 30%;
+    height: 30%;
+}
+
+svg{
+    width: 25px;
+    height: 25px;
+}
