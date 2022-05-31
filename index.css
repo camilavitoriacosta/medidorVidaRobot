@@ -53,7 +53,7 @@ main{
 }
 
 .barra_progresso{
-    width: 90%;
+    width: 95%;
     display: block;
     overflow: hidden;
     border-bottom-left-radius: 25px;
@@ -61,17 +61,14 @@ main{
 }
 
 .barra_progresso--diversao{
-    width: 40%;
     background-color: #f0a3a3;
 }
 
 .barra_progresso--limpeza{
-    width: 30%;
     background-color: #a3f0ad;
 }
 
 .barra_progresso--fome{
-    width: 70%;
     background-color: #a3d8f0;
 }
 
